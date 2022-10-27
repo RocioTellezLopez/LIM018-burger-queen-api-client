@@ -1,6 +1,10 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { useState } from 'react';
 import '../Login.css';
+// import axios from 'axios';
+import fetch from 'axios';
+
+
 
 
 function Login() {
@@ -19,14 +23,25 @@ function Login() {
   // funcion para el input email
   const handlePasswordChange = (event) => {
     // console.log(event.target.name)
-    // console.log(event.target.value)
     setPassword(event.target.value)
   }
   
   // funcion para mostar los datos ingresados en consola.
   const enviarDatos = (event) => {
     event.preventDefault()
-    console.log(`Inputs -> ${email} ${password} `)
+    // axios.post('http://localhost:3000/auth', {
+    //   email: email,
+    //   password: password
+    // })
+    //   .then((res) => console.log('peticion ->', res.data))
+    // console.log(`Inputs -> ${email} ${password} `)
+
+    fetch.post('http://localhost:3000/auth', {
+      email: email,
+      password: password
+    })
+      .then((res) => console.log('fetch', res.data))
+      .catch((error) => console.log(error));
   }
 
   return (
