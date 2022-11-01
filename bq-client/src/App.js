@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Login from './components/ScreenView/Login';
+import Waiter from './components/ScreenView/Waiter'
 import {
   BrowserRouter,
   Routes,
@@ -13,6 +14,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Login />}></Route>
+        <Route exact path="/waiter" element={<Waiter />}></Route>
       </Routes>
    </BrowserRouter>
    );
