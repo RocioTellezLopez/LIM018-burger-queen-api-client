@@ -1,14 +1,17 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { useState } from 'react';
-import Logo from '../staticComponents/Logo';
 import '../Login.css';
 import axios from 'axios';
+import Logo from '../staticComponents/Logo';
+import ErrModal from '../staticComponents/ErrorMessage';
+
 
 function Login() {
 
   // Hook useState
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [existeError, setExisteError] = useState(false);
 
   // funcion para el input email
   const handleInputChange = (event) => {
@@ -24,21 +27,25 @@ function Login() {
   // funcion para mostar los datos ingresados en consola.
   const enviarDatos = (event) => {
     event.preventDefault();
-    
-    axios.post('http://localhost:3000/auth', {
+    if (email !== '' & password !== '') {
+      axios.post('http://localhost:3000/auth', {
       email: email,
       password: password
-    })
-      .then((res) => {
-        console.log('Inicio de sesión con exito!')
-        console.log('fetch', res.data) // Cambio de vista
       })
-      .catch((error) => {
-        console.log('Error al iniciar sesión') // mensaje de error en Login
-        console.log('err', error)
-        const mensaje = document.getElementById('mensaje');
-        // mensaje.textContent = 'Error al iniciar sesión';
-      });
+        .then((res) => {
+          console.log('Inicio de sesión con exito!')
+          console.log('axios', res.data) // Cambio de vista
+          
+        })
+        .catch((error) => {
+          console.log('Error al iniciar sesión'); // mensaje de error en Login
+          console.log('err', error);
+          setExisteError(true);
+        });
+    } else {
+      alert('Ingrese todos los datos');
+    }
+    
   }
 
   return (
@@ -54,7 +61,7 @@ function Login() {
             <input type='password' name='name' placeholder='ingrese la contraseña' onChange={handlePasswordChange}/>
           </label>
           <input className='button' type='submit' value='Iniciar sesión' />
-          {/* <p id='mensaje'></p> */}
+          {existeError? <ErrModal message = {'error al iniciar sesion'} setExisteError = {setExisteError}/> : ''}
 
         </form>
       </div>
