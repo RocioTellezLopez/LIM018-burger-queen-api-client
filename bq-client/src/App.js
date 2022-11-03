@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Login from './components/ScreenView/Login';
+import Login from './components/ScreenView/Login/Login';
 import {
   BrowserRouter,
   Routes,
