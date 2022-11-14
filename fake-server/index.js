@@ -26,8 +26,8 @@ server.use((req, res, next) => {
 server.post('/auth', (req, res) => {
 
   if (
-    req.body.email === 'iam@fakel.lol' &&
-    req.body.password === 'apasswordtochange') {
+    req.body.email === 'waiter@bq.com' &&
+    req.body.password === '123456') {
     res.jsonp({
       token: secret
     })

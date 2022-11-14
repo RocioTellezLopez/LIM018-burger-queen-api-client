@@ -1,6 +1,6 @@
-import Logo from "../staticComponents/Logo";
-import '../Waiter.css'
-import Products from "../staticComponents/Products";
+import Logo from "../../staticComponents/Logo";
+import './Waiter.css'
+import Products from "../../staticComponents/Products";
 
 function Waiter() {
 

@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Login from './components/ScreenView/Login';
-import Waiter from './components/ScreenView/Waiter'
+import Login from './components/ScreenView/Login/Login';
+import Waiter from './components/ScreenView/waiter/Waiter'
 import {
   BrowserRouter,
   Routes,
