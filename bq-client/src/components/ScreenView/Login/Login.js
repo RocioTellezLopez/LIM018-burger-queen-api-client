@@ -60,10 +60,10 @@ function Login() {
         <Logo className='logo' />
         <form className="form-login" onSubmit={enviarDatos}>
           <label>
-            <input type='text' name='name' placeholder='Ingrese tu email' onChange={handleInputChange} />
+            <input type='text' name='name' value={email} placeholder='Ingrese tu email' onChange={handleInputChange} />
           </label>
           <label>
-            <input type='password' name='name' placeholder='ingrese la contraseña' onChange={handlePasswordChange}/>
+            <input type='password' name='password' value={password} placeholder='ingrese la contraseña' onChange={handlePasswordChange}/>
           </label>
           <input className='button' type='submit' value='Iniciar sesión' />
         </form>
