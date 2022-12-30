@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    /* margin: 0; */
+}
+
+.logo{
+    width: 250px;
+}
+
+.component-login{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(229, 235, 178, 1);
+    width: 100vw;
+    height: 100vh;
+}
+
+.div-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 10%;
+}
+
+.form-div{
+    background: rgba(253, 124, 63, 0.61);
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.form-login{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(253, 124, 63, 0.61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+input{
+    width: 250px;
+    height: 35px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-style: none;
+    border-radius: 10px;
+    margin: 20px;
+    padding-left: 10px;
+}
+
+.button{
+    background: rgb(121, 25, 25);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+
+
+/* screen table */
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  .component-login {
+    background-image: url('https://img.freepik.com/fotos-premium/hamburguesa-primer-plano-fondo-negro_23-2148234990.jpg?w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .div-login {
+    background-color: rgba(229, 235, 178, 1);
+    border-radius: 20px;
+    padding: 30px 10px;
+    margin-left: 55%;
+  }
+}
