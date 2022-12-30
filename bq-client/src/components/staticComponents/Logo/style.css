@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Carter One', cursive;
+    margin: 0;
+}
+
+.div-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.img-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.title-logo {
+  font-family: 'Carter One';
+  font-size: 28px;
+  line-height: 27px;
+  font-weight: 600;
+  padding: 10px;
+  color: #673416;
+}
+
+
