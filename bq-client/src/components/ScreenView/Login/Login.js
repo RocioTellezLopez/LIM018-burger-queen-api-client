@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import './Login.css';
 import axios from 'axios';
-import Logo from '../../staticComponents/Logo';
+import Logo from '../../staticComponents/Logo/Logo.js';
 import ErrModal from '../../staticComponents/Modal/ErrorMessage';
 import { useNavigate } from 'react-router-dom';
 
