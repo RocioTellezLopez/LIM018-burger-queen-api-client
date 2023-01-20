@@ -2,18 +2,87 @@
   "products": [
     {
       "id": 1,
-      "name": "coffee",
-      "price": "5"
-    }
-  ],
-  "comments": [
+      "name": "Café americano",
+      "price": "5",
+      "image": "",
+      "type": "breakfast"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "Café con leche",
+      "price": "7",
+      "image": "",
+      "type": "breakfast"
+    },
+    {
+      "id": 3,
+      "name": "Sandwich de jamón y queso",
+      "price": "10",
+      "image": "",
+      "type": "breakfast"
+    },
+    {
+      "id": 4,
+      "name": "Jugo de frutas natural",
+      "price": "7",
+      "image": "",
+      "type": "breakfast"
+    },
+    {
+      "id": 5,
+      "name": "Hamburguesa simple",
+      "price": "10",
+      "image": "",
+      "type": "Hamburguesas"
+    },
+    {
+      "id": 6,
+      "name": "Hamburguesa doble",
+      "price": "15",
+      "image": "",
+      "type": "Hamburguesas"
+    },
+    {
+      "id": 7,
+      "name": "Papas fritas",
+      "price": "5",
+      "image": "",
+      "type": "Acompañamientos"
+    },
+    {
+      "id": 8,
+      "name": "Aros de cebolla",
+      "price": "5",
+      "image": "",
+      "type": "Acompañamientos"
+    },
+    {
+      "id": 9,
+      "name": "Agua 500ml",
+      "price": "5",
+      "image": "",
+      "type": "Bebida"
+    },
+    {
+      "id": 10,
+      "name": "Agua 750ml",
+      "price": "7",
+      "image": "",
+      "type": "Bebida"
+    },
+    {
+      "id": 11,
+      "name": "Gaseosa 500ml",
+      "price": "10",
+      "image": "",
+      "type": "Bebida"
+    },
+    {
+      "id": 12,
+      "name": "Gaseosa 750ml",
+      "price": "10",
+      "image": "",
+      "type": "Bebida"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
