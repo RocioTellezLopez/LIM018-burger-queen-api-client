@@ -4,85 +4,85 @@
       "id": 1,
       "name": "Café americano",
       "price": "5",
-      "image": "",
+      "image": "https://www.casadelcafe.com.ni/wp-content/uploads/2018/02/cafe-americano.png",
       "type": "breakfast"
     },
     {
       "id": 2,
       "name": "Café con leche",
       "price": "7",
-      "image": "",
+      "image": "https://www.casadelcafe.com.ni/wp-content/uploads/2018/02/CAPUCCINO-1-330x220.png",
       "type": "breakfast"
     },
     {
       "id": 3,
       "name": "Sandwich de jamón y queso",
       "price": "10",
-      "image": "",
+      "image": "https://www.pngplay.com/wp-content/uploads/1/Bread-Sandwich-Transparent-Image.png",
       "type": "breakfast"
     },
     {
       "id": 4,
       "name": "Jugo de frutas natural",
       "price": "7",
-      "image": "",
+      "image": "https://static5.depositphotos.com/1041434/470/i/450/depositphotos_4707242-stock-photo-glass-of-orange-juice-isolated.jpg",
       "type": "breakfast"
     },
     {
       "id": 5,
       "name": "Hamburguesa simple",
       "price": "10",
-      "image": "",
-      "type": "Hamburguesas"
+      "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kaX9veaM/200/200/original?country=pe",
+      "type": "menu"
     },
     {
       "id": 6,
       "name": "Hamburguesa doble",
       "price": "15",
-      "image": "",
-      "type": "Hamburguesas"
+      "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kxXuyuVf/200/200/original?country=pe",
+      "type": "menu"
     },
     {
       "id": 7,
       "name": "Papas fritas",
       "price": "5",
-      "image": "",
-      "type": "Acompañamientos"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEEoz9j7B4tE41aiIU4UFwpDMHXi3ctvWq9A&usqp=CAU",
+      "type": "menu"
     },
     {
       "id": 8,
       "name": "Aros de cebolla",
       "price": "5",
-      "image": "",
-      "type": "Acompañamientos"
+      "image": "https://www.pngplay.com/wp-content/uploads/9/Onion-Ring-Transparent-Background.png",
+      "type": "menu"
     },
     {
       "id": 9,
       "name": "Agua 500ml",
       "price": "5",
-      "image": "",
-      "type": "Bebida"
+      "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kxX1sXFu/200/200/original?country=pe",
+      "type": "drink"
     },
     {
       "id": 10,
       "name": "Agua 750ml",
       "price": "7",
-      "image": "",
-      "type": "Bebida"
+      "image": "https://www.burgerking.pe/Multimedia/productos/SAN_LUIS_SIN_GAS_V1.png",
+      "type": "drink"
     },
     {
       "id": 11,
       "name": "Gaseosa 500ml",
       "price": "10",
-      "image": "",
-      "type": "Bebida"
+      "image": "https://www.burgerking.pe/Multimedia/productos/INCA_KOLA_ORIGINAL_V3.png",
+      "type": "drink"
     },
     {
       "id": 12,
       "name": "Gaseosa 750ml",
       "price": "10",
-      "image": "",
-      "type": "Bebida"
+      "image": "https://www.burgerking.pe/Multimedia/productos/Coca_Cola_Original_v5.png",
+      "type": "drink"
     }
   ]
 }
